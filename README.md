@@ -21,6 +21,8 @@
 | Should calculate age on Venus using inputted age. | 31 |  19.22 |
 | marsAge() | | |
 | Should calculate age on Mars using inputted age. | 31 | 58.28 |
+| jupAge() | | |
+| Should calculate age on Jupiter using inputted age. | 31 | 367.66 |
 
 
 
