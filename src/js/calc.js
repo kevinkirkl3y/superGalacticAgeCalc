@@ -21,4 +21,7 @@ export default class Calc {
   venLifeX() {
     return Math.round((this.lifeX * .62) * 1e2)/ 1e2;
   }
+  marsLifeX() {
+    return Math.round((this.lifeX * 1.88) * 1e2)/ 1e2;
+  }
 }
