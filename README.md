@@ -36,6 +36,8 @@
 | Should calculate the number years left to live on Mercury using inputted age and life expectancy. | (31,78.54) | 11.42 |
 | venYrsLeft() | | |
 | Should calculate the number years left to live on Venus using inputted age and life expectancy. | (31,78.54) | 29.47 |
+| marsYrsLeft() | | |
+| Should calculate the number years left to live on Mars using inputted age and life expectancy. | (31,78.54) | 89.38 |
 
 
 

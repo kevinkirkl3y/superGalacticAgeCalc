@@ -33,4 +33,7 @@ export default class Calc {
   venYrsLeft() {
     return this.venLifeX() - this.venAge();
   }
+  marsYrsLeft() {
+    return this.marsLifeX() - this.marsAge();
+  }
 }
