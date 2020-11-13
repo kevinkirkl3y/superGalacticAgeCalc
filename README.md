@@ -32,6 +32,8 @@
 | Should calculate the life expectancy on Mars using inputted life expectancy. | 78.54 | 147.66 |
 | jupLifeX() | | |
 | Should calculate the life expectancy on Jupiter using inputted life expectancy. | 78.54 | 931.48 |
+| mercYrsLeft() | | |
+| Should calculate the number years left to live on Mercury using inputted age and life expectancy. | (31,78.54) | 11.42 |
 
 
 
