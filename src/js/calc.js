@@ -40,6 +40,6 @@ export default class Calc {
     return Math.round((this.jupLifeX() - this.jupAge())* 1e2)/1e2;
   }
   mercYrsPast() {
-    return this.mercAge() - this.mercLifeX();
+    return Math.round((this.mercAge() - this.mercLifeX())*1e2)/1e2;
   }
 }
