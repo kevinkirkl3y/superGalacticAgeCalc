@@ -55,10 +55,13 @@ describe('Calc', () => {
   beforeEach(() => {
     calc2 = new Calc(80,78.54);
   });
-    test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mercury', () => {
+    test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mercury.', () => {
       expect(calc2.mercYrsPast()).toEqual(.35);
     });
-    test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Venus', () => {
+    test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Venus.', () => {
       expect(calc2.venYrsPast()).toEqual(.91);
+    });
+    test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mars.', () => {
+      expect(calc2.marsYrsPast()).toEqual(2.74);
     });
 });
