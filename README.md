@@ -28,6 +28,9 @@
 | Should calculate the life expectancy on Mercury using inputted life expectancy. | 78.54 | 18.85 |
 | venLifeX() | | |
 | Should calculate the life expectancy on Venus using inputted life expectancy. | 78.54 | 48.69 | 
+| marsLifeX() | | |
+| Should calculate the life expectancy on Mars using inputted life expectancy. | 78.54 | 147.66 |
+
 
 
 

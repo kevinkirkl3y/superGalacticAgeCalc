@@ -31,4 +31,7 @@ describe('Calc', () => {
     test('Should calculate the life expectancy on Venus using inputted life expectancy.', () => {
       expect (calc.venLifeX()).toEqual(48.69);
     });
+    test('Should calculate the life expectancy on Mars using inputted life expectancy.', () => {
+      expect(calc.marsLifeX()).toEqual(147.66);
+    });
 });
