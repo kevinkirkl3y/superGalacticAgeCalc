@@ -11,4 +11,7 @@ export default class Calc {
   marsAge() {
     return Math.round((this.age * 1.88) * 1e2)/ 1e2;
   }
+  jupAge() {
+    return Math.round((this.age * 11.86) * 1e2)/ 1e2;
+  }
 }
