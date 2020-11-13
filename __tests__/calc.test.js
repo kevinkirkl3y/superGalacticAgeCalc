@@ -41,6 +41,6 @@ describe('Calc', () => {
       expect(calc.mercYrsLeft()).toEqual(11.41); 
     });
     test('Should calculate the number years left to live on Venus using inputted age and life expectancy.', () => {
-      expect(calc.venYrsLeft()).toEqual(28.47);
+      expect(calc.venYrsLeft()).toEqual(29.47);
     });
 });
