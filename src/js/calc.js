@@ -5,4 +5,7 @@ export default class Calc {
   mercAge() {
     return Math.round((this.age * .24) * 1e2)/ 1e2;
   }
+  venAge() {
+    return Math.round((this.age * .62) * 1e2)/ 1e2;
+  }
 }

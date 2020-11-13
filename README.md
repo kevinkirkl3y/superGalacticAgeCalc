@@ -16,7 +16,9 @@
 | Calc() | | |
 | Should create a class with a parameter for age. | 31 | 31 |
 | mercAge() | | | 
-| Should calculate age on mercury using inputted age. | 31 | 7.44 |
+| Should calculate age on Mercury using inputted age. | 31 | 7.44 |
+| venAge() | | |
+| Should calculate age on Venus using inputted age. | 31 |  19.22 |
 
 
 

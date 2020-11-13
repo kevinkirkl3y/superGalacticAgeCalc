@@ -15,6 +15,6 @@ describe('Calc', () => {
     });
     
     test('Should calculate age on Venus using inputted age.', () => {
-      expect(calc.venAge()).toEqual(19.22)
+      expect(calc.venAge()).toEqual(29.22)
     });
 });
