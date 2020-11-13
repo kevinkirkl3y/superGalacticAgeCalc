@@ -88,6 +88,7 @@ _Contact Kevin Kirkley at [kevinmkirkley@gmail.com](mailto:kevinmkirkley@gmail.c
 * _VSCode_
 * _Node_
 * _webpack_
+* _Jest_
 
 ### License
 
