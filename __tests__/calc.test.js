@@ -38,6 +38,6 @@ describe('Calc', () => {
       expect(calc.jupLifeX()).toEqual(931.48);
     });
     test('Should calculate the number years left to live on Mercury using inputted age and life expectancy.', () => {
-      expect(calc.mercYrsLeft()).toEqual(12.42); 
+      expect(calc.mercYrsLeft()).toEqual(11.41); 
     });
 });
