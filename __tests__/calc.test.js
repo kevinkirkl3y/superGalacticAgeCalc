@@ -11,6 +11,6 @@ describe('Calc', () => {
       expect(calc.age).toEqual(31);
     });
     test('Should calculate age on mercury using inputted age.', () => {
-      expect(calc.mercAge(age)).toEqual(7.44);
+      expect(calc.mercAge()).toEqual(8.44);
     })
 });
