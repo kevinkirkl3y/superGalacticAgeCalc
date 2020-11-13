@@ -1,6 +1,7 @@
 export default class Calc {
-  constructor(age) {
+  constructor(age, lifeX) {
     this.age = age;
+    this.lifeX = lifeX;
   }
   mercAge() {
     return Math.round((this.age * .24) * 1e2)/ 1e2;

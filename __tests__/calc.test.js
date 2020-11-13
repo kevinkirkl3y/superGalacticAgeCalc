@@ -11,7 +11,7 @@ describe('Calc', () => {
       expect(calc.age).toEqual(31);
     });
     test('Class should also contain parameter for life expectancy.', () => {
-      expect(calc.lifeX).toEqual(78.54);
+      expect(calc.lifeX).toEqual(79.54);
     });
     test('Should calculate age on mercury using inputted age.', () => {
       expect(calc.mercAge()).toEqual(7.44);
