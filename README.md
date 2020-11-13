@@ -30,6 +30,8 @@
 | Should calculate the life expectancy on Venus using inputted life expectancy. | 78.54 | 48.69 | 
 | marsLifeX() | | |
 | Should calculate the life expectancy on Mars using inputted life expectancy. | 78.54 | 147.66 |
+| jupLifeX() | | |
+| Should calculate the life expectancy on Jupiter using inputted life expectancy. | 78.54 | 931.48 |
 
 
 
