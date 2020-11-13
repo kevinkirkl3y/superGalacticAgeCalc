@@ -25,7 +25,10 @@
 | jupAge() | | |
 | Should calculate age on Jupiter using inputted age. | 31 | 367.66 |
 | mercLifeX() | | |
-| Should caclulate the life expectancy on Mercury using inputted life expectancy. | 78.54 | 18.85 |
+| Should calculate the life expectancy on Mercury using inputted life expectancy. | 78.54 | 18.85 |
+| venLifeX() | | |
+| Should calculate the life expectancy on Venus using inputted life expectancy. | 78.54 | 48.69 | 
+
 
 
 

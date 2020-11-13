@@ -21,11 +21,14 @@ describe('Calc', () => {
     });
     test('Should calculate age on Mars using inputted age.', () => {
       expect(calc.marsAge()).toEqual(58.28);
-    })
+    });
     test('Should calculate age on Jupiter using inputted age.', () => {
       expect(calc.jupAge()).toEqual(367.66);
-    })
+    });
     test('Should caclulate the life expectancy on Mercury using inputted life expectancy.', () => {
       expect(calc.mercLifeX()).toEqual(18.85);
-    })
+    });
+    test('Should calculate the life expectancy on Venus using inputted life expectancy.', () => {
+      expect (calc.venLifeX()).toEqual(48.69);
+    });
 });
