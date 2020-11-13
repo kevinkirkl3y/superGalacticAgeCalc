@@ -3,6 +3,6 @@ export default class Calc {
     this.age = age;
   }
   mercAge() {
-    return this.age * .24;
+    return (this.age * .24).toFixed(2);
   }
 }
