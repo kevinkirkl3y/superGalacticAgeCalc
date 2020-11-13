@@ -59,6 +59,6 @@ describe('Calc', () => {
       expect(calc2.mercYrsPast()).toEqual(.35);
     });
     test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Venus', () => {
-      expect(calc2.venYrsPast()).toEqual(.91);
+      expect(calc2.venYrsPast()).toEqual(.90);
     });
 });
