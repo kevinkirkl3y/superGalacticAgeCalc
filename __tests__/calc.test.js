@@ -29,6 +29,6 @@ describe('Calc', () => {
       expect(calc.mercLifeX()).toEqual(18.85);
     });
     test('Should calculate the life expectancy on Venus using inputted life expectancy.', () => {
-      expect (calc.venLifeX()).toEqual(48.69);
+      expect (calc.venLifeX()).toEqual(49.69);
     });
 });
