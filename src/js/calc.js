@@ -36,4 +36,5 @@ export default class Calc {
   marsYrsLeft() {
     return this.marsLifeX() - this.marsAge();
   }
+  
 }

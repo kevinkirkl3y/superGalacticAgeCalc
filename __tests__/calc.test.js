@@ -46,4 +46,8 @@ describe('Calc', () => {
     test('Should calculate the number years left to live on Mars using inputted age and life expectancy.', () => {
       expect(calc.marsYrsLeft()).toEqual(89.38);
     });
+    test('Should calculate the number years left to live on Jupiter using inputted age and life expectancy.', () => {
+      expect(calc.jupYrsLeft()).toEqual(563.82);
+    });
+
 });
