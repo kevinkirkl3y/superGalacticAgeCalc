@@ -49,5 +49,4 @@ describe('Calc', () => {
     test('Should calculate the number years left to live on Jupiter using inputted age and life expectancy.', () => {
       expect(calc.jupYrsLeft()).toEqual(563.82);
     });
-
 });
