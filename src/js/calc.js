@@ -18,4 +18,7 @@ export default class Calc {
   mercLifeX() {
     return Math.round((this.lifeX * .24) * 1e2)/ 1e2;
   }
+  venLifeX() {
+    return Math.round((this.lifeX * .62) * 1e2)/ 1e2;
+  }
 }
