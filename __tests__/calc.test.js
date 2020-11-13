@@ -49,4 +49,11 @@ describe('Calc', () => {
     test('Should calculate the number years left to live on Jupiter using inputted age and life expectancy.', () => {
       expect(calc.jupYrsLeft()).toEqual(563.82);
     });
+  
+  beforeEach(() => {
+    calc = new Calc(80,78.54);
+  });
+    test('If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mercury', () => {
+      expect(calc.mercYrsPast()).toEqual(.35);
+    });
 });

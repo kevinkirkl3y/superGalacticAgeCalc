@@ -40,6 +40,8 @@
 | Should calculate the number years left to live on Mars using inputted age and life expectancy. | (31,78.54) | 89.38 |
 | jupYrsLeft() | | |
 | Should calculate the number years left to live on Jupiter using inputted age and life expectancy. | (31,78.54) | 89.38 | 563.82 |
+| mercYrsPast() | | |
+| If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mercury | (80,78.54) | .35 |
 
 
 
