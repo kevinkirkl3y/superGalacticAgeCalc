@@ -14,7 +14,9 @@
 | Describe: | Input | Output |
 | :-----------------------------------| :------------- | :------------- |
 | Calc() | | |
-| should create a class with a parameter for age. | 31 | 31 |
+| Should create a class with a parameter for age. | 31 | 31 |
+| mercAge() | | | 
+| Should calculate age on mercury using inputted age. | 31 | 7.44 |
 
 
 
