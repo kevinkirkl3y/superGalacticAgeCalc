@@ -44,6 +44,8 @@
 | If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mercury. | (80,78.54) | .35 |
 | venYrsPast() | | |
 | If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Venus. | (80,78.54) | .91 |
+| marsYrsPast() | | |
+| If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Mars. | (80,78.54) | 2.74 |
 
 
 
