@@ -30,4 +30,7 @@ export default class Calc {
   mercYrsLeft() {
     return this.mercLifeX() - this.mercAge();
   }
+  venYrsLeft() {
+    return this.venLifeX() - this.venAge();
+  }
 }
