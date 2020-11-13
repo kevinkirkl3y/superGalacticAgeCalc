@@ -17,6 +17,6 @@ describe('Calc', () => {
       expect(calc.venAge()).toEqual(19.22);
     });
     test('Should calculate age on Mars using inputted age.', () => {
-      expect(calc.marsAge()).toEqual(58.28);
+      expect(calc.marsAge()).toEqual(68.28);
     })
 });

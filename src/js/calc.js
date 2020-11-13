@@ -8,4 +8,7 @@ export default class Calc {
   venAge() {
     return Math.round((this.age * .62) * 1e2)/ 1e2;
   }
+  marsAge() {
+    return Math.round((this.age * 1.88) * 1e2)/ 1e2;
+  }
 }
