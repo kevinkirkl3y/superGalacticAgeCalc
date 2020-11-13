@@ -26,6 +26,6 @@ describe('Calc', () => {
       expect(calc.jupAge()).toEqual(367.66);
     })
     test('Should caclulate the life expectancy on Mercury using inputted life expectancy.', () => {
-      expect(calc.mercLifeX()).toEqual(19.85);
+      expect(calc.mercLifeX()).toEqual(18.85);
     })
 });
