@@ -27,4 +27,7 @@ export default class Calc {
   jupLifeX() {
     return Math.round((this.lifeX * 11.86) * 1e2)/ 1e2;
   }
+  mercYrsLeft() {
+    return this.mercLifeX() - this.mercAge();
+  }
 }
