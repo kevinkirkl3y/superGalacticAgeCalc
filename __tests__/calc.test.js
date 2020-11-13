@@ -8,6 +8,6 @@ describe('Calc', () => {
   });
 
     test('should create a class with a parameter for age', () => {
-      expect(calc.age).toEqual(30);
+      expect(calc.age).toEqual(31);
     });
 });
