@@ -1,10 +1,11 @@
-# Title TODO
+# Super Galactic Age Calculator
 
-#### "Objective and Date TODO"
+#### "TDD Practice while using Classes and Template Literals 11.13.2020"
 
 #### by _**Kevin Kirkley**_
 
 ## Description
+
 
  
 
@@ -12,6 +13,8 @@
 
 | Describe: | Input | Output |
 | :-----------------------------------| :------------- | :------------- |
+| Calc() | | |
+| should create a class with a parameter for age. | 31 | 31 |
 
 
 
@@ -56,6 +59,8 @@ _Contact Kevin Kirkley at [kevinmkirkley@gmail.com](mailto:kevinmkirkley@gmail.c
 * _JQuery_
 * _JavaScript_
 * _VSCode_
+* _Node_
+* _webpack_
 
 ### License
 
