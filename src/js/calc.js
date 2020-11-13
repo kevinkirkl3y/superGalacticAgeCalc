@@ -28,7 +28,6 @@ export default class Calc {
     return Math.round((this.lifeX * 11.86) * 1e2)/ 1e2;
   }
   mercYrsLeft() {
-    
     return this.mercLifeX() - this.mercAge();
   }
   venYrsLeft() {
@@ -39,5 +38,8 @@ export default class Calc {
   }
   jupYrsLeft() {
     return Math.round((this.jupLifeX() - this.jupAge())* 1e2)/1e2;
+  }
+  mercYrsPast() {
+    return this.mercAge() - this.mercLifeX();
   }
 }
