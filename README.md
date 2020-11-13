@@ -15,6 +15,7 @@
 | :-----------------------------------| :------------- | :------------- |
 | Calc() | | |
 | Should create a class with a parameter for age. | 31 | 31 |
+| Class should also contain parameter for life expectancy. | 78.54 | 78.54 |
 | mercAge() | | | 
 | Should calculate age on Mercury using inputted age. | 31 | 7.44 |
 | venAge() | | |

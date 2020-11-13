@@ -4,11 +4,14 @@ describe('Calc', () => {
   let calc;
   
   beforeEach(() => {
-    calc = new Calc(31);
+    calc = new Calc(31, 78.54);
   });
 
-    test('should create a class with a parameter for age', () => {
+    test('Should create a class with a parameter for age', () => {
       expect(calc.age).toEqual(31);
+    });
+    test('Class should also contain parameter for life expectancy.', () => {
+      expect(calc.lifeX).toEqual(78.54);
     });
     test('Should calculate age on mercury using inputted age.', () => {
       expect(calc.mercAge()).toEqual(7.44);
