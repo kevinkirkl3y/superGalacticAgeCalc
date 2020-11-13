@@ -35,6 +35,6 @@ describe('Calc', () => {
       expect(calc.marsLifeX()).toEqual(147.66);
     });
     test('Should calculate the life expectancy on Jupiter using inputted life expectancy.', () => {
-      expect(calc.jupLifeX()).toEqual(932.48);
+      expect(calc.jupLifeX()).toEqual(931.48);
     });
 });
