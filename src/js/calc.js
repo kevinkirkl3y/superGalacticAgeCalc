@@ -42,4 +42,7 @@ export default class Calc {
   mercYrsPast() {
     return Math.round((this.mercAge() - this.mercLifeX())*1e2)/1e2;
   }
+  venYrsPast() {
+    return Math.round((this.venAge() - this.venLifeX())*1e2)/1e2;
+  }
 }
