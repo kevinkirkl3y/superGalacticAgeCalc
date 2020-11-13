@@ -20,6 +20,6 @@ describe('Calc', () => {
       expect(calc.marsAge()).toEqual(58.28);
     })
     test('Should calculate age on Jupiter using inputted age.', () => {
-      expect(calc.jupAge()).toEqual(368.66);
+      expect(calc.jupAge()).toEqual(367.66);
     })
 });
