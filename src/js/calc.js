@@ -37,7 +37,7 @@ export default class Calc {
     return this.marsLifeX() - this.marsAge();
   }
   jupYrsLeft() {
-    return this.jupLifeX() - this.jupAge();
+    return Math.round((this.jupLifeX() - this.jupAge())* 1e2)/1e2;
   }
 
 }
