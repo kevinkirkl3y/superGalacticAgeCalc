@@ -5,6 +5,7 @@
 #### by _**Kevin Kirkley**_
 
 ## Description
+As your orbit ventures closer or further from the sun your days become either shorter or longer. This page works to put perspective to that relative change by calculating your age and life expectancy (assuming you have all the equipment and supplies necessary) at various planets within our solar sytem. The page currently lacks the proper set up for UI interactivity within it's main.js file. All classes and functions are contained within the calc.js file. 
 
 
  
@@ -62,20 +63,27 @@
 Software Requirements
 1. Internet Browser
 2. A code editor such as VSCode in order to view or edit codebase. 
+3. Node npm must be installed on your system.
 
 Open by downloading:
-1. Download the [repository](TODO) onto your computer by clicking the 'clone or download button'.
-2. Double click the index.html to open it within your browser.
+1. Download the [repository](https://github.com/kevinkirkl3y/superGalacticAgeCalc.git) onto your computer by clicking the 'clone or download button'.
+2. Open entire file within your code editor.
+3. Enter npm install within your terminal to set up the package manager.
+4. Enter npm run build withing your terminal in order to compile the files within it's /dist folder.
+5. Enter npm run start in your terminal and live display of the page will open in your browser. 
 
 Open with Bash/GitBash:
-1. Clone this repository onto your computer: 'git clone TODO'
+1. Clone this repository onto your computer: 'git clone https://github.com/kevinkirkl3y/superGalacticAgeCalc.git'
 2. Navigate into the 'MrRoboger' directory and open in VSCode or preferred text editor using 'code .' in your terminal.
-3. Open index.html in Google Chrome or your preferred browser. 
+3. Enter npm install within your terminal to set up the package manager.
+4. Enter npm run build withing your terminal in order to compile the files within it's /dist folder.
+5. Enter npm run start in your terminal and live display of the page will open in your browser. 
 
 View my live website here: 
-[TODO](kevinkirkl3y.github.io/)
+[Super Galactic Age Calculator](kevinkirkl3y.github.io/)
 
 ## Known Bugs
+* The functionality of the program has not yet been set up within the UI. 11.13.2020 - Kevin Kirkley
 
 
 
