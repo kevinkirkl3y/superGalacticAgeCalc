@@ -2,6 +2,7 @@ export default class Calc {
   constructor(age, lifeX) {
     this.age = age;
     this.lifeX = lifeX;
+    
   }
   mercAge() {
     return Math.round((this.age * .24) * 1e2)/ 1e2;
@@ -28,13 +29,13 @@ export default class Calc {
     return Math.round((this.lifeX * 11.86) * 1e2)/ 1e2;
   }
   mercYrsLeft() {
-    return this.mercLifeX() - this.mercAge();
+    return Math.round((this.mercLifeX() - this.mercAge())*1e2)/1e2;
   }
   venYrsLeft() {
-    return this.venLifeX() - this.venAge();
+    return Math.round((this.venLifeX() - this.venAge())*1e2)/1e2;
   }
   marsYrsLeft() {
-    return this.marsLifeX() - this.marsAge();
+    return Math.round((this.marsLifeX() - this.marsAge())*1e2)/1e2;
   }
   jupYrsLeft() {
     return Math.round((this.jupLifeX() - this.jupAge())* 1e2)/1e2;
