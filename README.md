@@ -5,7 +5,7 @@
 #### by _**Kevin Kirkley**_
 
 ## Description
-As your orbit ventures closer or further from the sun your days become either shorter or longer. This page works to put perspective to that relative change by calculating your age and life expectancy (assuming you have all the equipment and supplies necessary) at various planets within our solar sytem. The page currently lacks the proper set up for UI interactivity within it's main.js file. All classes and functions are contained within the calc.js file. 
+As your orbit ventures closer or further from the sun your days become either shorter or longer. This page works to put perspective to that relative change by calculating your age and life expectancy (assuming you have all the equipment and supplies necessary) at various planets within our solar sytem. The page currently includes basic UI interactivity within it's main.js file. All classes and functions are contained within the calc.js file. 
 
 
  
@@ -83,7 +83,7 @@ View my live website here:
 [Super Galactic Age Calculator](kevinkirkl3y.github.io/)
 
 ## Known Bugs
-* The functionality of the program has not yet been set up within the UI. 11.13.2020 - Kevin Kirkley
+* The functionality of the program has not yet been set up within the UI. 11.13.2020 - Kevin Kirkley -- 11.18.2020 Basic UI functionality has been added. 
 
 
 
