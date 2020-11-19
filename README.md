@@ -7,9 +7,6 @@
 ## Description
 As your orbit ventures closer or further from the sun your days become either shorter or longer. This page works to put perspective to that relative change by calculating your age and life expectancy (assuming you have all the equipment and supplies necessary) at various planets within our solar sytem. The page currently includes basic UI interactivity within it's main.js file. All classes and functions are contained within the calc.js file. 
 
-
- 
-
 ## Specifications
 
 | Describe: | Input | Output |
@@ -50,14 +47,6 @@ As your orbit ventures closer or further from the sun your days become either sh
 | jupYrsPast() | | |
 | If inputted age is greater than inputted life expectancy it will calculate the number of years past life expectancy live on Jupiter. | (80,78.54) | 17.32 |
 
-
-
-
-
-
-
-
-
 ## Setup/Installation Requirements
 
 Software Requirements
@@ -84,9 +73,6 @@ View my live website here:
 
 ## Known Bugs
 * The functionality of the program has not yet been set up within the UI. 11.13.2020 - Kevin Kirkley -- 11.18.2020 Basic UI functionality has been added. 
-
-
-
 
 ## Support and contact detail
 
